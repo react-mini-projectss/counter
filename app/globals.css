@@ -1,0 +1,60 @@
+/* ---------- GLOBAL PAGE STYLES ---------- */
+
+.main-container {
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.section-block {
+  margin-bottom: 30px;
+}
+body{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+/* ---------- COUNTER COMPONENT STYLES ---------- */
+
+.counter-box {
+  padding: 20px;
+  border: 1px solid #fcfcfc;
+  border-radius: 20px;
+  max-width: 500px;
+}
+
+.counter-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.counter-value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.counter-button-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.counter-btn {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  background-color: #eee;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+
+.counter-btn:hover {
+  background-color: #ddd;
+}
+
+.initial-text {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #666;
+}
