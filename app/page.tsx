@@ -9,22 +9,6 @@ export default function HomePage() {
         <h2>Example :- (initial: 10)</h2>
         <Counter initial={10} />
       </section>
-
-      {/* Uncomment to test TS errors */}
-
-      {/*
-      <section className="section-block">
-        <h2>Error Example (initial: 'five')</h2>
-        <Counter initial="five" /> 
-      </section>
-      */}
-
-      {/*
-      <section className="section-block">
-        <h2>Error Example (Missing 'initial')</h2>
-        <Counter /> 
-      </section>
-      */}
     </main>
   );
 }
